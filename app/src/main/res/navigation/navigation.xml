@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/sheetFragment">
+
+    <fragment
+        android:id="@+id/sheetFragment"
+        android:name="com.furkanmulayim.halkekmag.presentation.fragment.SheetFragment"
+        android:label="SheetFragment" >
+        <action
+            android:id="@+id/action_sheetFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_sheetFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment" />
+        <action
+            android:id="@+id/action_sheetFragment_to_postPaylasFragment"
+            app:destination="@id/postPaylasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.furkanmulayim.halkekmag.presentation.fragment.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_sheetFragment"
+            app:destination="@id/sheetFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_postPaylasFragment"
+            app:destination="@id/postPaylasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.furkanmulayim.halkekmag.presentation.fragment.PostDetailFragment"
+        android:label="PostDetailFragment" >
+        <action
+            android:id="@+id/action_postDetailFragment_to_sheetFragment"
+            app:destination="@id/sheetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postPaylasFragment"
+        android:name="com.furkanmulayim.halkekmag.presentation.fragment.PostPaylasFragment"
+        android:label="PostPaylasFragment" >
+        <action
+            android:id="@+id/action_postPaylasFragment_to_sheetFragment"
+            app:destination="@id/sheetFragment" />
+    </fragment>
+</navigation>

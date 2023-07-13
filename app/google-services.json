@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919431854937",
+    "project_id": "halkekmag-e4802",
+    "storage_bucket": "halkekmag-e4802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919431854937:android:9a105f5292c8510de22a48",
+        "android_client_info": {
+          "package_name": "com.furkanmulayim.halkekmag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhgESyD9JApalYYCZJA6LG07zs0IgIvPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

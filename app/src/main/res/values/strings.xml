@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Halkekmag</string>
+    <string name="k_adi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="hello_blank_fragment">SHEET FRAGMENT</string>
+    <string name="enter_title">Enter The Title*</string>
+    <string name="click">Click to Add Image (4:5)</string>
+    <string name="enter_location">Enter The Location*</string>
+    <string name="enter_date">Select The Date*</string>
+    <string name="about">About</string>
+    <string name="enter_about">You can enter descriptions in this section.*</string>
+    <string name="sil">Halkekmag ve SubKültür sunar: Unfollow Night! Istanbulda bi parti daha yapalım demişik, işte o partiyi yapyoruz. Hem de ne yapış, Sahnede Patron pmc, Ege Çubukçu, Ati 242, Halko ve Pya. Dj kabininde Ataberk Ozdene, Mezar Turizm, Gasminsta 17 Ekim gecesi, istanbulda. </string>
+    <string name="share_post">Share Post</string>
+    <string name="err_message">Bir sorunla karşılaşıldı.</string>
+    <string name="login_successful">Giriş Başarılı..</string>
+    <string name="id_and_pass_incorrect">Kullanıcı Adı veya Şifre Hatalı..</string>
+    <string name="id_and_pass_empty">Kullanıcı Adı veya Şifre Boş olamaz..</string>
+    <string name="succ_post_submit">Postun Başarıyla Yüklendi</string>
+    <string name="icerik_uretici_girisi">Halkekmag İçerik Üretici Girişi</string>
+
+
+    Kullanıcı Adı veya Hatalı..
+</resources>
